@@ -1,5 +1,5 @@
 {
-  "name": "calreact",
+  "name": "calendar",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.0.1",
