@@ -1,0 +1,24 @@
+// Place all the styles related to the appointments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  width: 500px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 200px;
+}
+
+ul.appointments-list {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+
+    &:not(:last-child) {
+      padding-bottom: 10 px;
+      border-bottom: 1px solid #AAA;
+    }
+  }
+}
